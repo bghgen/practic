@@ -1,0 +1,200 @@
+header{
+    margin: 0px;
+}
+
+
+.menu{
+    border: 0px;
+    text-transform: uppercase;
+    font-family: "Open Sans",sans-serif;
+    background-color: white;
+    border-bottom: 1px solid #d0d0d0;
+}
+ .navbar-default .navbar-brand{
+     font-family: 'Tenor Sans', sans-serif;
+     padding-right: 200px;
+     color: black;
+     font-size: 16px;
+     padding-top: 10px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: black;
+}
+.phone-number{
+    margin: 5px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav > li > a{
+    padding-top: 25px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: black;
+    border-bottom: 1px solid #000000;
+}
+
+.navbar-default .navbar-text{
+    color: black;
+}
+.homescreen{
+    color: white;
+    font-family: 'Tenor Sans', sans-serif;
+    background-image: url(../img/big-photo.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  
+}
+body{
+    font-family: 'Tenor Sans', sans-serif;
+    padding-top: 60px;
+}
+
+h1{
+    font-size: 58px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    padding-top: 25px;
+}
+h2{
+    font-size: 40px;
+    line-height: 170%;
+}
+h4{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin: 50px 0;
+}
+.link-name{
+    text-align: center;
+    color: black;
+    line-height: 100%;
+    margin: 30px;
+}
+.slogan{
+padding-top: 50px;
+padding-bottom: 450px;
+}
+.services{
+    background-color: #f9f9f9;
+    padding-bottom: 80px;
+}
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 210%;
+    margin-top: 20px;
+}
+.shadow{
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.35);
+}
+.check{
+    color: #bfbfbf;
+}
+.contacts{
+margin-top: 60px;
+    height: 
+}
+.contact-icon{
+   padding-left: 55px;
+    text-align: center;
+      color: #bfbfbf;
+    
+}
+.footer{
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    padding: 40px 0;
+    color: #6c6c6c;
+}
+#serv, #contact{
+	padding-top: 85px;
+	margin-top: -55px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+#home{
+    padding-top: 55px;
+	margin-top: -55px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+@media only screen and (max-width: 1200px) {
+    .description{
+        margin-top: 0;
+    }
+    .homescreen{
+        height: 700px;
+    }
+    .slogan{
+        padding-bottom: 250px;
+    }
+    .shadow{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .homescreen{
+        height: 600px;
+    }
+    .shadow{
+        width: 350px;
+
+    }
+    .description{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        padding-top: 0;
+        font-size: 20px;
+    }
+    .navbar-default .navbar-brand{
+        padding-right: 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body{
+        padding-top: 50px;
+    }
+     .navbar-default .navbar-brand{
+        padding-right: 0;
+    }
+    .homescreen{
+        height: 500px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .slogan{
+        padding-bottom: 80px;
+    }
+    .link-name{
+        margin: 15px;
+    }
+    h4{
+margin: 15px;
+        font-size: 20px;
+    }
+    .shadow{
+        width: 100%;
+        box-shadow: none;
+        padding-bottom: 15px;
+    }
+    .map{
+        padding: 0;
+    }
+}
